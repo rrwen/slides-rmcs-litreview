@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "node"
+  - "8"
+install:
+  - npm install
+script:
+  - git clone https://github.com/rrwen/slides-rmcs-litreview
+  - cd slides-rmcs-litreview
+  - npm install
+  - npm run html
+  - npm run pdf
