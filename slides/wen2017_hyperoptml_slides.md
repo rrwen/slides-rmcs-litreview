@@ -10,14 +10,14 @@
 
 ---
 
-# Overview
+# Outline
 
-* Introduction
-* Methods
-* Results
-* Discussion
-* Conclusion
-* References
+1. Introduction
+2. Methods
+3. Results
+4. Discussion
+5. Conclusion
+6. References
 
 ---
 
