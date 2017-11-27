@@ -6,7 +6,7 @@
   
 <small>November 29, 2017</small>  
   
-<small>Presentation slides for Research Methods in Computer Science Course Instructed by Dr. Cherie Ding.</small>
+<small>*Presentation for Research Methods in Computer Science Course Instructed by Dr. Cherie Ding.*</small>
 
 ---
 
@@ -22,18 +22,23 @@
 ---
 
 ## Introduction
+
 ---
 
 ## Methods
+
 ---
 
 ## Results
+
 ---
 
 ## Discussion
+
 ---
 
 ## Conclusion
+
 ---
 
 ## References

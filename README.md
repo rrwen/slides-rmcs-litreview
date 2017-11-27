@@ -27,3 +27,11 @@ npm install
 npm run html
 npm run pdf
 ```
+
+The following can be edited before rendering:
+
+* `slides/wen2017_hyperoptml_slides.md`: [Markdown](https://daringfireball.net/projects/markdown/) file with slide contents
+* `slides/template.html`: [Custom reveal-md template](https://github.com/webpro/reveal-md#custom-template) 
+* `docs/edit/style.css`: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) file to adjust styling of slides
+* `docs/edit/logo.png`: logo image to use
+* `reveal.json`: [Reveal.js options](https://github.com/webpro/reveal-md#revealjs-options)
