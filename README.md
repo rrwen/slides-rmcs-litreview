@@ -16,8 +16,8 @@ Presentation slides for Research Methods in Computer Science Course Instructed b
 
 1. Install [npm](https://www.npmjs.com/)
 2. [Clone](https://git-scm.com/docs/git-clone) this repository
-3. Generate **docs/index.html** (see `script.html` in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
-4. Generate **slides/wen2017_hyperoptml_slides.pdf** (see `script.pdf` in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
+3. Generate **docs/index.html** (see `script.html`) in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
+4. Generate **slides/wen2017_hyperoptml_slides.pdf** (see `script.pdf`) in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
 
 ```
 git clone https://github.com/rrwen/slides-rmcs-litreview
