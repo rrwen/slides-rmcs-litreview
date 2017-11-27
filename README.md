@@ -1,4 +1,4 @@
-# slides-rmcs-litreview
+# A Brief Review of Hyperparameter Optimization Methods for Machine Learning
 
 Richard Wen  
 rrwen.dev@gmail.com  
