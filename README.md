@@ -46,8 +46,8 @@ The slides [slides-rmcs-litreview](https://github.com/rrwen/slides-rmcs-litrevie
 
 npm | Purpose
 --- | ---
-[reveal-md](https://www.npmjs.com/package/reveal-md) | Converting `slides/wen2017_hyperoptml_slides.md` markdown to `docs/index.html` reveal html slides
-[decktape](https://www.npmjs.com/package/decktape) | Converting `slides/wen2017_hyperoptml_slides.md` markdown to `slides/wen2017_hyperoptml_slides.pdf` format 
+[reveal-md](https://www.npmjs.com/package/reveal-md) | Converting `slides/wen2017_hyperoptml_slides.md` to `docs/index.html`
+[decktape](https://www.npmjs.com/package/decktape) | Converting `slides/wen2017_hyperoptml_slides.md` to `slides/wen2017_hyperoptml_slides.pdf`
 [windows-build-tools](https://www.npmjs.com/package/windows-build-tools) | Compiling dependencies for decktape on Windows Operating System (OS)
 
 ```
