@@ -15,10 +15,12 @@ Presentation slides for Research Methods in Computer Science Course Instructed b
 
 ## Developer Notes
 
+### Generate Slides
+
 1. Install [npm](https://www.npmjs.com/)
 2. [Clone](https://git-scm.com/docs/git-clone) this repository
-3. Generate **docs/index.html** (see `script.html`) in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
-4. Generate **slides/wen2017_hyperoptml_slides.pdf** (see `script.pdf`) in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
+3. Generate `docs/index.html` (see `script.html`) in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
+4. Generate `slides/wen2017_hyperoptml_slides.pdf` (see `script.pdf`) in [package.json](https://github.com/rrwen/slides-rmcs-litreview/blob/master/package.json)
 
 ```
 git clone https://github.com/rrwen/slides-rmcs-litreview
@@ -28,9 +30,30 @@ npm run html
 npm run pdf
 ```
 
-The following can be edited before rendering:
+### Edits
+
+The following can be edited before generating:
 
 * `slides/wen2017_hyperoptml_slides.md`: [Markdown](https://daringfireball.net/projects/markdown/) file with slide contents
 * `slides/template.html`: [Custom reveal-md template](https://github.com/webpro/reveal-md#custom-template) 
 * `docs/edit/style.css`: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) file to adjust styling of slides
 * `docs/edit/logo.png`: logo image to use
+
+### Implementation
+
+
+The slides [slides-rmcs-litreview](https://github.com/rrwen/slides-rmcs-litreview) uses the following [npm](https://www.npmjs.com/) packages for its implementation:
+
+npm | Purpose
+--- | ---
+[reveal-md](https://www.npmjs.com/package/reveal-md) | Converting `slides/wen2017_hyperoptml_slides.md` markdown to `docs/index.html` reveal html slides
+[decktape](https://www.npmjs.com/package/decktape) | Converting `slides/wen2017_hyperoptml_slides.md` markdown to `slides/wen2017_hyperoptml_slides.pdf` format 
+[windows-build-tools](https://www.npmjs.com/package/windows-build-tools) | Compiling dependencies for decktape on Windows Operating System (OS)
+
+```
+       reveal-md            <-- Convert markdown  slides to html
+
+       decktape             <-- Convert markdown slides to pdf
+          |
+  windows-build-tools       <-- Compile decktape on Windows OS
+```
