@@ -4,7 +4,7 @@
   "description": "Presentation slides for Research Methods in Computer Science Course Instructed by Dr. Cherie Ding.",
   "main": "",
   "scripts": {
-    "html": "node ./node_modules/reveal-md/bin/cli.js slides/wen2017_hyperoptml_slides.md --static docs --theme white --reveal-template slides/template.html",
+    "html": "node ./node_modules/reveal-md/bin/cli.js slides/wen2017_hyperoptml_slides.md --static docs --reveal-template slides/template.html",
     "pdf": "node ./node_modules/decktape/decktape.js reveal docs/index.html slides/wen2017_hyperoptml_slides.pdf"
   },
   "directories": {

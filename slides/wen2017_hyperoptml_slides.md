@@ -1,7 +1,16 @@
+---
+title: A Brief Review of Hyperparameter Optimization Methods for Machine Learning
+theme: white
+revealOptions:
+	transition: 'slide'
+	controls: true
+	slideNumber: true
+---
+
 # A Brief Review of Hyperparameter Optimization Methods for Machine Learning
 
 <small>Richard Wen</small>  
-<small>rrwen.dev@gmail.com</small>  
+<small>rwen@ryerson.ca</small>  
 <small>Department of Civil Engineering</small>  
   
 <small>November 29, 2017</small>  
