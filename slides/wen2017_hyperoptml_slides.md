@@ -42,21 +42,27 @@ revealOptions:
 
 ---
 
-## <span class="background-text">Online Criminal Activity Detection</span>
+## <span class="background-text">Object Detection and Tracking</span>
 
-<!-- .slide: data-background="./edit/background/prison.jpg" -->
+<!-- .slide: data-background="./edit/background/raccoon_objdetect.gif" -->
 
 ---
  
 ## <span class="background-text">Medical Image Diagnoses</span>
 
-<!-- .slide: data-background="./edit/background/xray.png" -->
+<!-- .slide: data-background="./edit/background/ctscan_thorax.gif" -->
 
 ---
 
 ## <span class="background-text">Disaster Mapping</span>
 
-<!-- .slide: data-background="./edit/background/flood_thailand_ayutthaya.png" -->
+<!-- .slide: data-background-iframe="./edit/iframe/simontontexas_harveyflood/simontontexas_harveyflood.html" -->
+
+---
+
+## Machine Learning Process
+
+
 
 ---
 
@@ -82,9 +88,9 @@ $$
 
 ## Objectives
 
-* Review and summarize recent methods
-* Discuss limitations
-* Propose improvements and future directions
+* **Summarize** recent methods
+* **Discuss** limitations
+* **Propose** improvements and future directions
 
 ---
 
