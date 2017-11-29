@@ -53,7 +53,9 @@
               { src: '{{{base}}}/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
               { src: '{{{base}}}/plugin/zoom-js/zoom.js', async: true },
               { src: '{{{base}}}/plugin/notes/notes.js', async: true },
-              { src: '{{{base}}}/plugin/math/math.js', async: true }
+              { src: '{{{base}}}/plugin/math/math.js', async: true },
+			  { src: '{{{base}}}/edit/js/chart/Chart.min.js' },
+			  { src: '{{{base}}}/edit/js/anything/anything.js' }
             ];
             // default options to init reveal.js
             var defaultOptions = {
@@ -62,7 +64,18 @@
               history: true,
               center: true,
               transition: 'slide', // none/fade/slide/convex/concave/zoom
-              dependencies: deps
+              dependencies: deps,
+			  anything: [
+				{
+					className: "random", 
+					defaults: {min: 0, max: 25}, 
+					initialize: (function(container, options){ container.innerHTML = Math.trunc( options.min + Math.random()*(options.max-options.min + 1) ); }) 
+				 },
+				 {
+					className: "chart",
+					initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+				 }
+			  ]
             };
             // options from URL query string
             var queryOptions = Reveal.getQueryHash() || {};
