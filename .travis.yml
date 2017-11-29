@@ -9,4 +9,3 @@ script:
   - cd slides-rmcs-litreview
   - npm install
   - npm run html
-  - npm run pdf
