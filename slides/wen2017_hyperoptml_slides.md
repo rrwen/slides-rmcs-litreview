@@ -114,7 +114,7 @@ For hyperparameter optimization:
 
 ## Digital Library Selection
 
-<img src="./edit/img/cs_jif_graph.png" width="65%"></img>
+<img src="./edit/img/cs_jif_graph.PNG" width="65%"></img>
 
 <small>Top 25 computer science journals on InCites by Journal Impact Factors</small>
 
