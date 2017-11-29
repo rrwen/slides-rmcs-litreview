@@ -108,7 +108,7 @@ For hyperparameter optimization:
 
 ## Methods Process
 
-<img src="./edit/img/methodsprocess.svg" margin="500px"></img>
+<img src="./edit/img/methodsprocess.svg"></img>
 
 ---
 
