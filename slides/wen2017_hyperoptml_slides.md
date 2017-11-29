@@ -172,7 +172,17 @@ Criteria| Description
    }
   ]
  }, 
- "options": { "responsive": "true" }
+ "options": {
+   "responsive": "true",
+   "scales": {
+        "yAxes": [{
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Number of Papers"
+          }
+        }]
+      }
+ }
 }
 -->
 </canvas>
@@ -198,7 +208,17 @@ Criteria| Description
    }
   ]
  }, 
- "options": { "responsive": "true" }
+ "options": {
+   "responsive": "true",
+   "scales": {
+        "yAxes": [{
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Number of Papers"
+          }
+        }]
+      }
+ }
 }
 -->
 </canvas>
@@ -290,9 +310,65 @@ Method | Description
 
 * Model performance function $f$ using $x \dots x_n$
 * Predict next best set of hyperparameters
-* e.g. Bayesian optimization, random forest
+* e.g. Bayesian optimization
 
 <span class="reference">Ref: [8-10] </span>
+
+---
+
+## SMBO Example
+
+<canvas class="chart">
+<!--
+{
+ "type": "line",
+ "data": {
+  "labels": ["x_t1"," x_t2"," x_t3"," x_t4", "x_t5"],
+  "datasets":[
+   {
+    "data":["0.1", "0.25", "0.9", "0.65", "0.1"],
+	"fill": false,
+    "label":"Actual",
+	"borderColor":"rgba(0, 76, 155, 0.8)",
+	"backgroundColor": "rgba(0, 76, 155, 0.8)",
+	"pointRadius": 0,
+	"lineTension": 0
+   },
+   {
+    "data":["0.1", "0.25", "0.9", "0.65", "0.1"],
+	"fill": false,
+    "label":"Model",
+	"borderColor":"rgba(91, 194, 244, 0.8)",
+	"backgroundColor": "rgba(91, 194, 244, 0.8)",
+	"pointRadius": 0,
+	"borderDash": [5,10]
+   },
+   {
+    "data":["0.1", "0.25", "0.9", "0.65", "0.1", "1"],
+	"fill": false,
+	"showLine": false,
+    "label":"Observed",
+	"backgroundColor": "rgba(255, 220, 0, 0.8)",
+	"pointRadius": 10,
+	"pointHoverRadius": 15,
+	"pointBackgroundColor": "rgba(255, 220, 0, 0.8)"
+   }
+  ]
+ }, 
+ "options": {
+   "responsive": "true",
+   "scales": {
+        "yAxes": [{
+          "scaleLabel": {
+            "display": true,
+            "labelString": "f(x)"
+          }
+        }]
+      }
+ }
+}
+-->
+</canvas>
 
 ---
 
@@ -324,11 +400,21 @@ Method | Description
   "datasets":[
    {
     "data":["2", "2", "3", "0", "8"],
-    "label":"# of datasets","backgroundColor":"rgba(0, 45, 114, 0.8)"
+    "label":"Source","backgroundColor":"rgba(0, 45, 114, 0.8)"
    }
   ]
  }, 
- "options": { "responsive": "true", "scaleSteps" : "1"}
+ "options": {
+   "responsive": "true",
+   "scales": {
+        "yAxes": [{
+          "scaleLabel": {
+            "display": true,
+            "labelString": "Number of Datasets"
+          }
+        }]
+      }
+ }
 }
 -->
 </canvas>
