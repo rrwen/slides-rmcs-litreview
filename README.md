@@ -2,8 +2,6 @@
 
 Richard Wen  
 rwen@ryerson.ca  
-November 29, 2017  
-Presentation for Research Methods in Computer Science Course Instructed by Dr. Cherie Ding  
 
 * [Slides](https://rrwen.github.io/slides-rmcs-litreview)
 * [PDF](https://github.com/rrwen/slides-rmcs-litreview/blob/master/slides/wen2017_hyperoptml_slides.pdf)
